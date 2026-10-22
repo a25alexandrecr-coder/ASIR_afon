@@ -84,15 +84,15 @@ Si se muestra la versión y la lista de bases de datos, la instalación es corre
 
 Puedes crear una nueva base de datos con:`CREATE DATABASE test;` y empezar a utilizarla con `USE test;`
 
+
+---
 ## 5. Resolución de problemas
 
 | Problema | Causa probable | Solución |
 |----------|----------------|----------|
 | `Access denied for user 'root'` | Contraseña incorrecta | Revisa la contraseña definida en la instalación |
-| `Can't connect to local MySQL server` | El servicio está parado | En Ubuntu: `sudo systemctl start mysql`. En Windows: inicia `MySQL80` desde *Servicios* |
+| `Can't connect to local MySQL server` | El servicio está parado | Ubuntu: `sudo systemctl start mysql`. Windows: inicia `MySQL80` desde *Servicios* |
 | `mysql: command not found` | MySQL no está en el PATH | Añade la carpeta `bin` de MySQL a las variables de entorno |
-
-> :bulb: **Consejo:** para ver por qué falla el servicio en Ubuntu, usa `sudo journalctl -u mysql`.
 
 ---
 
