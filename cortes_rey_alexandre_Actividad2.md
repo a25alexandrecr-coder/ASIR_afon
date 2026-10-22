@@ -31,10 +31,10 @@ Guía breve para instalar **MySQL Server** en dos sistemas operativos y comproba
 - Conexión a Internet.
 - Al menos 2 GB de RAM y 1 GB de disco libre.
 
-| Sistema   | Método de instalación  | Servicio por defecto |
-|-----------|------------------------|----------------------|
-| Windows   | MySQL Installer (.msi) | `MySQL80`           |
-| Ubuntu    | Paquete `apt`          | `mysql`             |
+| Sistema   | Método de instalación  | Servicio por defecto | Puerto |
+|-----------|------------------------|----------------------|--------|
+| Windows   | MySQL Installer (.msi) | `MySQL80`            | 3306   |
+| Ubuntu    | Paquete `apt`          | `mysql`              | 3306   |
 
 ---
 
@@ -63,7 +63,9 @@ Guía breve para instalar **MySQL Server** en dos sistemas operativos y comproba
    sudo mysql_secure_installation
    ```
 
-3. Comprueba que el servicio está activo con `systemctl status mysql`.
+3. Comprueba que el servicio está activo con `systemctl status mysql`
+   
+4. Arranca el servicio si no está activo con `sudo systemctl enable mysql`
 
 ---
 
@@ -79,6 +81,8 @@ SHOW DATABASES;
 Si se muestra la versión y la lista de bases de datos, la instalación es correcta. :white_check_mark:
 
 > :warning: **Aviso:** si aparece el error `Access denied for user 'root'`, revisa la contraseña definida durante la instalación.
+
+Puedes crear una nueva base de datos con:`CREATE DATABASE test;` y empezar a utilizarla con `USE test;`
 
 ## 5. Resolución de problemas
 
