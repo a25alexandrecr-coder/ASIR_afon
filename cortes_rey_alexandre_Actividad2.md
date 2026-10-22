@@ -31,10 +31,12 @@ Guía breve para instalar **MySQL Server** en dos sistemas operativos y comproba
 - Conexión a Internet.
 - Al menos 2 GB de RAM y 1 GB de disco libre.
 
-| Sistema   | Método de instalación  | Servicio por defecto | Puerto |
-|-----------|------------------------|----------------------|--------|
-| Windows   | MySQL Installer (.msi) | `MySQL80`            | 3306   |
-| Ubuntu    | Paquete `apt`          | `mysql`              | 3306   |
+| Sistema   | Método de instalación  | Servicio por defecto |
+|-----------|------------------------|----------------------|
+| Windows   | MySQL Installer (.msi) | `MySQL80`            |
+| Ubuntu    | Paquete `apt`          | `mysql`              |
+
+> :memo: **Nota:** el puerto por defecto de MySQL es `3306`.
 
 ---
 
