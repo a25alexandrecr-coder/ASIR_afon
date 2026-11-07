@@ -14,6 +14,7 @@ Guía breve para instalar **MySQL Server** en dos sistemas operativos y comproba
   - [4. Comprobación](#4-comprobación)
   - [5. Resolución de problemas](#5-resolución-de-problemas)
   - [6. Referencias](#6-referencias)
+  - [Infromación del proyecto](#infromación-del-proyecto)
 
 ---
 
@@ -102,3 +103,11 @@ Puedes crear una nueva base de datos con:`CREATE DATABASE test;` y empezar a uti
 
 - [Documentación oficial de MySQL](https://dev.mysql.com/doc/)
 - [Guía de Ubuntu Server](https://ubuntu.com/server/docs)
+
+---
+## Infromación del proyecto
+
+Esta documentación se ha elaborado utilizando Markdown.
+
+El control de las versiones se realiza mediante Git y el repositorio se encuentra alojado en GitHub. 
+
