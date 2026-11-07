@@ -111,3 +111,8 @@ Esta documentación se ha elaborado utilizando Markdown.
 
 El control de las versiones se realiza mediante Git y el repositorio se encuentra alojado en GitHub. 
 
+---
+## Próximas mejoras
+1. Añadir información de cración de usuarios.
+2. Añadir información de creación, asignación y uso de roles a usuarios.
+3. Añadir vídeo de procesos.
