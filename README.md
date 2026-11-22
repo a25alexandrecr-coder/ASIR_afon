@@ -15,6 +15,8 @@ Guía breve para instalar **MySQL Server** en dos sistemas operativos y comproba
   - [5. Resolución de problemas](#5-resolución-de-problemas)
   - [6. Referencias](#6-referencias)
   - [Infromación del proyecto](#infromación-del-proyecto)
+  - [Próximas mejoras](#próximas-mejoras)
+  - [Recomendaciones de seguridad](#recomendaciones-de-seguridad)
 
 ---
 
@@ -116,3 +118,11 @@ El control de las versiones se realiza mediante Git y el repositorio se encuentr
 1. Añadir información de cración de usuarios.
 2. Añadir información de creación, asignación y uso de roles a usuarios.
 3. Añadir vídeo de procesos.
+
+---
+## Recomendaciones de seguridad
+
+1. **Mantén el sistema actualizado** con `sudo apt update && sudo apt upgrade` para corregir vulnerabilidades conocidas.
+2. **Usa contraseñas robustas** y no trabajes como `root`: utiliza `sudo` solo cuando sea necesario.
+3. **Activa el cortafuegos** (`sudo ufw enable`) y abre solo los puertos imprescindibles.
+4. **Realiza copias de seguridad periódicas** antes de hacer cambios importantes.
